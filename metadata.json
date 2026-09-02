@@ -1,0 +1,6 @@
+{
+  "name": "NEXORA - AI E-Commerce Platform",
+  "description": "Intelligent, Personalized & Predictive Commerce Decision Platform powered by modern AI, smart recommendations, demand forecasting, and conversational shopping.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

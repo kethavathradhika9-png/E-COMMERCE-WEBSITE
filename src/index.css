@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #05070B;
+    color: #E2E8F0;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-heading {
+    font-family: 'Space Grotesk', sans-serif;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom Minimalist Dark Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #090D16;
+}
+::-webkit-scrollbar-thumb {
+  background: #1E293B;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* Geometric Grid Background Pattern */
+.bg-grid-pattern {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.bg-dot-pattern {
+  background-image: radial-gradient(#1e293b 1px, transparent 1px);
+  background-size: 16px 16px;
+}
+
+/* Glassmorphic border accents */
+.border-geometric {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.border-geometric-glow {
+  border: 1px solid rgba(56, 189, 248, 0.25);
+  box-shadow: 0 0 15px -3px rgba(56, 189, 248, 0.1);
+}
